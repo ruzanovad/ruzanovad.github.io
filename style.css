@@ -1,0 +1,25 @@
+body {
+    font-family: "Play", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 30px;
+}
+.section {
+    margin-bottom: 20px;
+}
+.section h2 {
+    margin-bottom: 10px;
+}
+.wrap-image {
+    float: right;
+    width: 20%;
+    margin-left: 10px;
+}
+ul {
+    list-style-type: disc;
+    margin-left: 40px;
+}
+a {
+    color: blue;
+    text-decoration: none;
+}
