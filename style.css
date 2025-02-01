@@ -33,3 +33,15 @@ a {
     color: blue;
     text-decoration: none;
 }
+
+.tag {
+    display: inline-block;
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 6px 12px;
+    font-size: 14px;
+    border-radius: 20px;
+    margin: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
