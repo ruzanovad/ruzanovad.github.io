@@ -1,47 +1,79 @@
+/* Base Styles */
 body {
     font-family: "Play", sans-serif;
     font-weight: 400;
     font-style: normal;
     margin: 30px;
+    background-color: #fafafa;
+    color: #333;
+    line-height: 1.6;
 }
 
+/* Header Layout */
 .header {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .header-section {
     margin-left: 4rem;
 }
 
+/* Section Titles */
 .section {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 .section h2 {
-    margin-bottom: 10px;
+    margin-bottom: 12px;
+    font-size: 1.5rem;
+    color: #444;
+    border-left: 4px solid #b3cde0;
+    padding-left: 12px;
 }
+
+/* Profile Image Styling */
 .wrap-image {
     width: 257px;
     height: 280px;
-    /* margin-left: 10px; */
-} 
+    border-radius: 16px;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+/* List Styling */
 ul {
     list-style-type: disc;
     margin-left: 40px;
 }
+
+/* Link Styling */
 a {
-    color: blue;
+    color: #4a90e2;
     text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+a:hover {
+    color: #1c6dd0;
 }
 
+/* Tag / Badge Styling */
 .tag {
     display: inline-block;
-    background-color: #f0f0f0;
-    color: #333;
+    background-color: #e6f2ff;
+    color: #005b96;
     padding: 6px 12px;
-    font-size: 14px;
+    font-size: 13px;
+    font-weight: 500;
     border-radius: 20px;
     margin: 4px;
-    cursor: pointer;
-    transition: all 0.3s ease;
+    cursor: default;
+    transition: transform 0.2s ease;
+}
+.tag:hover {
+    transform: scale(1.05);
+    background-color: #d0e7ff;
 }
